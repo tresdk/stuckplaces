@@ -3,6 +3,7 @@ class ReviewsController < ApplicationController
   before_action :authenticate_user!
 
   def edit
+    @place = @review.place
   end
 
   def create
