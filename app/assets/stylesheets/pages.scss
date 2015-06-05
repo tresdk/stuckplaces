@@ -7,3 +7,28 @@
   z-index: 1;
   width: 200px;
 }
+
+.landing_title{
+  padding-top: 200px;
+}
+
+.landing{
+  background: url("http://41.media.tumblr.com/ec62f6e2f79b29c2b020ed168411b3ed/tumblr_ndyvrtul9d1tubinno1_1280.jpg") no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.btn-landing{
+  background: none;
+  border: solid;
+  &:hover{
+    background: none;
+    border-color: white;
+  };
+}
